@@ -1,12 +1,11 @@
 <%-- 
     Document   : register
-    Created on : Aug 15, 2023, 3:27:52 PM
-    Author     : lemin
+    Created on : Jul 20, 2023, 9:29:49 AM
+    Author     : Admin
 --%>
 
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-
+<!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,9 +15,9 @@
     <title>Sign Up Form by Colorlib</title>
 
     <!-- Font Icon -->
-    <link href="resources/fonts/material-design-iconic-font.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../resources/fonts/material-design-iconic-font.min.css" rel="stylesheet" type="text/css"/>
     <!-- Main css -->
-    <link href="resources/css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="../resources/css/styles.css" rel="stylesheet" type="text/css"/>
 
     <!-- Main css -->
     <link href="resources/css/styles.css" rel="stylesheet" type="text/css"/>
@@ -30,18 +29,18 @@
                 <div class="signup-content">
                     <div class="signup-form">
                         <h2 class="form-title">Sign up</h2>
-                        <form method="POST" class="register-form" id="register-form" action="RegisterServlet">
+                        <form method="POST" class="register-form" id="register-form">
                             <div class="form-group">
                                 <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="Name" id="name" placeholder="Your Name"/>
+                                <input type="text" name="name" id="name" placeholder="Your Name"/>
                             </div>
                             <div class="form-group">
                                 <label for="email"><i class="zmdi zmdi-email"></i></label>
-                                <input type="email" name="Email" id="email" placeholder="Your Email"/>
+                                <input type="email" name="email" id="email" placeholder="Your Email"/>
                             </div>
                             <div class="form-group">
                                 <label for="pass"><i class="zmdi zmdi-lock"></i></label>
-                                <input type="password" name="Password" id="pass" placeholder="Password"/>
+                                <input type="password" name="pass" id="pass" placeholder="Password"/>
                             </div>
                             <div class="form-group">
                                 <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
@@ -57,8 +56,7 @@
                         </form>
                     </div>
                     <div class="signup-image">
-                        
-                        <figure><img src="resources/img/signup-image.jpg" alt=""/></figure>                       
+                        <figure><img src="../resources/img/signup-image.jpg" alt="sing up image"></figure>                       
                         <a href="#" class="signup-image-link">I am already member</a>
                     </div>
                 </div>
@@ -66,7 +64,7 @@
         </section>
 
     <!-- JS -->
-    <script src="resources/js/main.js" type="text/javascript"></script>
-    <script src="resources/js/jquery.min.js" type="text/javascript"></script>
-</body>
+    <script src="../resources/js/main.js" type="text/javascript"></script>
+    <script src="../resources/js/jquery.min.js" type="text/javascript"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>

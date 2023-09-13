@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
-    Created on : Aug 15, 2023, 2:04:51 PM
-    Author     : lemin
+    Created on : Jul 20, 2023, 2:15:39 PM
+    Author     : Admin
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -48,9 +48,9 @@
                         <li><a href="#"><i class="fa fa-map-marker"></i> 1734 Stonecoal Road</a></li>
                     </ul>
                     <ul class="header-links pull-right">
-                        <li><a href="login.jsp"><i class="fa fa-user"></i> Login</a></li>
+                        <li><a href="views/login.jsp"><i class="fa fa-user"></i> Login</a></li>
                         <li><a>|</a></li>
-                        <li><a href="register.jsp"><i class="fa fa-user"></i> Register</a></li>
+                        <li><a href="views/register.jsp"><i class="fa fa-user"></i> Register</a></li>
                         <li><a href="#"><i class="fa fa-user-o"></i> My Account</a></li>
                     </ul>
                 </div>
