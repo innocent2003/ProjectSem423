@@ -24,20 +24,21 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author lemin
  */
+ @WebServlet("/AddCategoryServlet")
 public class AddCategoryServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String Name = request.getParameter("Name");
-        String Email = request.getParameter("Email");
-        String Password = request.getParameter("Password");
+        String CategoryName = request.getParameter("CategoryName");
+        String CategoryStatus = request.getParameter("CategoryStatus");
+        
 
         try {
             Connection conn = getConnection();
-            PreparedStatement pstmt = conn.prepareStatement("INSERT INTO customers (Name,Email ,Password) VALUES (?, ?, ?)");
-            pstmt.setString(1, Name);
-            pstmt.setString(2, Email);
-            pstmt.setString(3, Password);
+            PreparedStatement pstmt = conn.prepareStatement("INSERT INTO category (CategoryName,CategoryStatus ) VALUES (?, ?)");
+            pstmt.setString(1, CategoryName);
+            pstmt.setString(2, CategoryStatus);
+           
             pstmt.executeUpdate();
             conn.close();
         } catch (Exception e) {

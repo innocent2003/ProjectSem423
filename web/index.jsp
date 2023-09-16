@@ -174,11 +174,11 @@
                     <!-- NAV -->
                     <ul class="main-nav nav navbar-nav">
                         <li class="active"><a href="">Home Page</a></li>                       
-                        <li><a href="views/store.jsp">Store</a></li>
-                        <li><a href="views/product.jsp">Product</a></li>
-                        <li><a href="views/cart.jsp">Cart</a></li>
-                        <li><a href="views/checkout.jsp">CheckOut</a></li>
-                        <li><a href="views/contact.jsp">Contact</a></li>
+                        <li><a href="store.jsp">Store</a></li>
+                        <li><a href="product.jsp">Product</a></li>
+                        <li><a href="cart.jsp">Cart</a></li>
+                        <li><a href="checkout.jsp">CheckOut</a></li>
+                        <li><a href="contact.jsp">Contact</a></li>
                      
                     </ul>
                     <!-- /NAV -->

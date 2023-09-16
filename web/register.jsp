@@ -59,7 +59,7 @@
                     <div class="signup-image">
                         
                         <figure><img src="resources/img/signup-image.jpg" alt=""/></figure>                       
-                        <a href="#" class="signup-image-link">I am already member</a>
+                        <a href="login/jsp" class="signup-image-link">I am already member</a>
                     </div>
                 </div>
             </div>
