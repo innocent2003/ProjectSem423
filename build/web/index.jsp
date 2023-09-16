@@ -1,9 +1,8 @@
-<%-- 
-    Document   : index
-    Created on : Aug 15, 2023, 2:04:51 PM
-    Author     : lemin
---%>
+<%
+    request.setAttribute("contentPage", "index-content.jsp");
+%>
 
+<<<<<<< HEAD
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -1104,3 +1103,6 @@
     </body>
     </f:view>
 </html>
+=======
+<jsp:include page="layout.jsp" />
+>>>>>>> d38adc87da6ce9fbca4d86dc9ff6144c50774cdc
